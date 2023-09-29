@@ -2,7 +2,7 @@
 
 
 ### Tools need to install ###
-- FTP
+- SSH
 - Hydra
 - Crunch
 ```
